@@ -607,6 +607,7 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
 .close-button {
@@ -636,4 +637,119 @@ body {
 
 .icon-modal {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.title-modal {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-navyblue);
+  margin-bottom: 16px;
+}
+
+.contact-modal {
+  margin-bottom: 8px;
+}
+
+.title-contact-modal {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--color-light-slate);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.wrapper-contact-modal {
+  position: relative;
+}
+
+.contact-info {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-info:focus,
+.contact-info:hover {
+  border-color: #4d5ae5;
+}
+
+.icon-contact-modal {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-contact-modal:focus,
+.icon-contact-modal:hover {
+  fill: #4d5ae5;
+}
+
+.comment-modal {
+  margin-bottom: 16px;
+}
+
+.text-area {
+  width: 100%;
+  height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.text-area:focus,
+.text-area:hover {
+  border-color: #4d5ae5;
+}
+
+.wrapper-terms {
+  margin-bottom: 24px;
+}
+
+.terms {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--color-light-slate);
+  display: block;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
+.icon-click {
+  fill: var(--color-cloud);
+}
+
+input:checked + span {
+  fill: var(--color-cloud);
 }
