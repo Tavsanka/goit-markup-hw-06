@@ -746,8 +746,13 @@ body {
   fill: transparent;
 }
 
-input:checked + span {
+.form-input {
+}
+
+.form-input:checked + .checkbox {
+  background-color: var(--color-ocean);
   fill: var(--color-cloud);
+  border: none;
 }
 
 .privacy-policy {
