@@ -746,9 +746,29 @@ body {
   fill: transparent;
 }
 
-.form-input {
-}
-
 input:checked + span {
   fill: var(--color-cloud);
+}
+
+.privacy-policy {
+  color: var(--color-iris);
+}
+
+.button-send {
+  display: block;
+  justify-content: center;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  cursor: pointer;
+  background-color: var(--color-iris);
+  border: none;
+  border-radius: 4px;
+  margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
