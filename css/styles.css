@@ -723,7 +723,7 @@ body {
   margin-bottom: 24px;
 }
 
-.terms {
+.form-label {
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17;
@@ -746,8 +746,7 @@ body {
   fill: transparent;
 }
 
-.icon-click {
-  fill: var(--color-cloud);
+.form-input {
 }
 
 input:checked + span {
