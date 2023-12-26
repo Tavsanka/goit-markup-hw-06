@@ -749,7 +749,7 @@ body {
 .form-input {
 }
 
-.form-input:checked + .checkbox {
+.form-input:checked + .form-label {
   background-color: var(--color-ocean);
   fill: var(--color-cloud);
   border: none;
@@ -776,4 +776,65 @@ body {
   border-radius: 4px;
   margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-container {
+  margin-left: 80px;
+}
+
+.subcribe {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+
+.form-subcribe {
+  display: flex;
+  gap: 24px;
+}
+
+.label-email {
+}
+
+.input-email {
+  height: 40px;
+  width: 264px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--color-white);
+}
+
+::placeholder {
+  color: var(--color-white);
+}
+
+.button-subscribe {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  cursor: pointer;
+  background-color: var(--color-iris);
+  border: none;
+  border-radius: 4px;
+}
+
+.frame {
+  margin-left: 16px;
 }
