@@ -791,7 +791,7 @@ body {
   color: var(--color-white);
 }
 
-.form-subcribe {
+.form-subscribe {
   display: flex;
   gap: 24px;
 }
