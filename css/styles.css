@@ -759,10 +759,6 @@ body {
   border: none;
 }
 
-.input-checkbox:checked + .form-label .icon-click {
-  fill: var(--color-cloud);
-}
-
 .privacy-policy {
   color: var(--color-iris);
 }
